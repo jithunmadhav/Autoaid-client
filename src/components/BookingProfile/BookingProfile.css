@@ -1,0 +1,173 @@
+.Booking-bg{
+    background: linear-gradient(to right, #111111,#0e1136) !important;
+    height: 100vh;
+}
+.Booking-innder-div{
+    position: absolute;
+    top: 52%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 500px ;
+}
+.Booking-inner-div2{
+    display: flex;
+    margin-top: 70px;
+    padding: 5%;
+    justify-content: center;
+}
+.Booking-div2-sub1{
+    height: 500px;
+    width: 30%;
+}
+.Booking-div2-sub2{
+    height: 500px;
+    background-color: cadetblue;
+    width: 70%;
+}
+.Booking-profile-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Booking-maindiv-2{
+    position: absolute;
+    top: 52%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 500px ;
+}
+.quick-btn{
+    position: absolute !important;
+    bottom: 10%;
+    left: 22%;
+}
+
+.schedule-btn{
+    position: absolute !important;
+    bottom:10%;
+    left: 55%;
+
+}
+.chat-btn{
+    font-size: 17px !important;
+}
+.ul-style{
+    padding-left: 268px;
+}
+.services-booking {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  @media(max-width:1700px){
+    .Booking-innder-div{
+        position: absolute;
+        top: 52%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        height: 500px ;
+    }
+    .Booking-maindiv-2{
+        position: absolute;
+        top: 52%;
+        left: 68%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 700px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        height: 500px ;
+    }
+  }
+@media(max-width:800px){
+    .Booking-maindiv-2 {
+        position: absolute;
+        top: 84%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 326px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        height: 400px;
+    }
+    .Booking-innder-div {
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 326px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        height: 250px;
+    }
+    .Booking-inner-div2 {
+        display: flex;
+        margin-top: -58px;
+        padding: 5%;
+        justify-content: center;
+    }
+    .name {
+        font-family: 'Monomaniac One', sans-serif;
+        text-align: center;
+        font-size: 18px;
+    }
+    .chat-btn{
+        font-size: 11px !important;
+        margin-left: 16px !important;
+    }
+    .Booking-profile-Img{
+      
+        width: 50px;
+        height: 50px;
+    }
+    .profile-background {
+        background: linear-gradient(to right, #111111,#0e1136) !important;
+        height: 890px !important;
+    }
+    .ul-style{
+        padding-left: 91px;
+    }
+    .quick-btn{
+        position: absolute !important;
+        bottom: 16%;
+        left: 29%;
+    }
+    
+    .schedule-btn{
+        position: absolute !important;
+        bottom: 2%;
+        left: 23%;
+    
+    }
+    .services-booking {
+        padding-top: 12px;
+      }
+     
+}

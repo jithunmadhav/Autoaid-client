@@ -1,0 +1,226 @@
+.background{
+    background: linear-gradient(to right, #111111,#0e1136) !important;
+    height: 90vh;
+    display: flex;
+}
+.background-img{
+    width: 250px;
+    position: absolute;
+    left: 25%;
+    top: 27%;
+}
+.quotesStyle{
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    top: 46%;
+    left: 20%;
+    line-height: 55px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.card-size{
+  max-width: 365px !important;
+}
+.card-image{
+  height: 256px;
+  width: 100% !important;
+  object-fit: contain !;
+}
+.secondPage{
+  background: #f6ad55;
+  height:70vh;
+}
+.Third-page{
+  height:40vh;
+}
+.home-para{
+  margin: 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Merienda', cursive;
+}
+.home-quotes{
+  margin-top: 230px;
+  color: #f8f9fa;
+  font-size: 68px;
+  font-family: 'Merriweather', serif;
+  line-height: 150%;
+}
+.animated-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: showText 10s steps(40, end) infinite;
+    border-right: 0.15em solid #f3e7e700;
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    top: 72%;
+    left: 11%;
+    line-height: 55px;
+    font-size: 36px;
+    font-weight: bolder;
+  }
+ 
+
+  @keyframes showText {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  .services{
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    border-radius: 30px;
+  }
+  /* .cards:hover{
+    transform: scale(1.03);
+  } */
+  .whyAutoAid{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Merienda', cursive;
+  }
+ 
+  .footer{
+    height: 25vh;
+    background-color: #000000e0;
+}
+
+/* @media (max-width: 1000px) {
+
+} */
+
+
+@media (max-width: 1800px) {
+  .background-img {
+    width: 150px;
+    left: 15%;
+  }
+  .card-size{
+    max-width: 325px !important;
+  }
+  .card-image{
+    height: 256px;
+    width: 100% !important;
+    object-fit: contain !;
+  }
+
+  .quotesStyle {
+    top: 38%;
+    left: 10%;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .home-quotes {
+    margin-top: 212px;
+    font-size: 49px;
+  }
+
+  .animated-text {
+    top: 68%;
+    left: 7%;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .services {
+    padding-top: 15px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .whyAutoAid {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .background {
+    flex-direction: column;
+    height: 390px;
+  }
+  .secondPage{
+    background: #f6ad55;
+    height:1500px;
+  }
+  .Third-page{
+    height:250px;
+  }
+  .background-img {
+    width: 85px;
+    left: 10%;
+    top: 18%;
+  }
+
+  .quotesStyle {
+    top: 15%;
+    left: 10%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .home-quotes {
+    position: absolute;
+    right: 9%;
+    line-height: 130%;
+    top: -10%;
+    font-size: 20px;
+  }
+
+  .animated-text {
+    top: 38%;
+    left: 8%;
+    font-size: 23.4px;
+    line-height: 30px;
+  }
+
+  .services {
+    padding-top: 15px;
+  }
+
+  .cards {
+    margin-left: px;
+    margin-right: 25px;
+    margin-top: 30px;
+    gap: 10px;
+  }
+
+  .whyAutoAid {
+    font-size: 16px;
+  }
+  .home-para{
+    margin: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Merienda', cursive;
+  }
+  .card-size{
+    max-width: 10px;
+  }
+  .footer{
+    height: 15vh;
+    background-color: #000000e0;
+}
+}

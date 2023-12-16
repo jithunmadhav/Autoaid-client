@@ -1,0 +1,323 @@
+.vehicle-background{
+    background: linear-gradient(to right, #111111,#0e1136) !important;
+    height: 100vh;
+}
+.radio{
+    width: 10%;
+    height: 100px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.table-mid1{
+    width: 50%;
+    height: 100px;
+    text-align: left;
+    padding-left: 60px;
+}
+.table-mid2{
+    width: 40%;
+    height: 100px;
+    text-align: right;
+    padding-right: 80px;
+}
+.Edit-btn{
+    padding-top: 30px;
+}
+.vehicle-inner-div{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+     
+    height: 700px ;
+}
+.vehicle-heading{
+    margin-bottom: 59px;
+    text-align: center;
+    font-family: 'Monomaniac One', sans-serif;
+    margin-top: 20px;
+}
+.vehicle-btn{
+    width: 4%;
+    outline: none !important;
+    background: linear-gradient(-5deg,  #111111,#0e1136);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 24px;
+}
+.vehicle-btn::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+.vehicle-btn:hover::after {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+.btn {
+    display: block;
+    background: #4e4e4d;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 15px 15px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+.btn:hover::after {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*-------------------- Form --------------------*/
+.Form fieldset {
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    position: relative;
+}
+.Form fieldset input {
+    width: 100%;
+    height: 48px;
+    color: #333;
+    padding: 15px 40px 15px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+}
+.Form button {
+    width: 100%;
+    outline: none !important;
+    background: linear-gradient(-5deg,  #111111,#0e1136);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 3px 0px rgba(115, 136, 89, 0.2);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+/*-------------------- Signup --------------------*/
+.vehicle-user {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    height: 500px ;
+}
+
+.vehicle-connect, .vehicle-classic {
+    width: 50%;
+    padding: 45px 50px ; 
+}
+.vehicle-connect  {
+    
+    margin-top: 54px ;
+    background-image: url("https://img.freepik.com/free-vector/city-driver-concept-illustration_114360-1209.jpg?w=1380&t=st=1686239309~exp=1686239909~hmac=4ff2b2fa4ab66fe402bcbd142ebb9bde10090cbbf80bef1653f8380323e6391e") ; 
+    background-size: contain ;
+    background-repeat: no-repeat ;
+}
+ 
+.errorMessage{
+    margin-top: -15px;
+    height: 20px;
+    text-align: center;
+    color: orangered;
+}
+@media(max-width:850px) {
+    .vehicle-user{
+        position: absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 681px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        display: flex;
+        height: 475px;
+    }
+    .vehicle-connect,   .vehicle-classic{
+        width: 50%;
+        padding: 26px 50px ; 
+        
+    
+    }
+    .vehicle-connect{
+        margin-top: 99px ;
+    }
+    
+    
+  }
+
+@media(max-width:700px) {
+    .vehicle-user{
+        width: 338px;
+        height: 485px;
+    }
+    .vehicle-connect{
+        width: 0%;
+        padding: 0 -0;
+        margin-top: 0 ;
+        background-image: none; 
+        background-size: contain ;
+        background-repeat: no-repeat  ;
+    }
+     .vehicle-classic {
+       width: 101%;
+       padding: 38px 50px;
+    }
+    
+  }
+  .vehicle-table{
+    display: flex;
+    margin: 31px 0px -13px 58px;
+    width: 91%;
+    height: 110px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .continue-btn{
+    position: absolute;
+    right: 18%;
+    border-radius: 9px;
+    bottom: 5%;
+    background: white;
+    font-family: monospace;
+    font-weight: bolder;
+  }
+
+
+  /* Mobile View */
+@media (max-width: 800px) {
+    .vehicle-inner-div {
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 339px;
+        background: linear-gradient(to right, #111111,#0e1136) !important;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        height: 90vh;
+    }
+    .table-mid1{
+        width: 50%;
+        height: 62px;
+        font-size: 11px;
+        padding-top: 25px;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .table-mid2{
+        width: 40%;
+        height: 100px;
+        text-align: right;
+        padding-right: 56px;
+        font-size: 11px;
+        padding-top: 25px;
+    }
+    .vehicle-table {
+        display: flex;
+        margin: 30px 0px -14px 16px;
+        width: 92%;
+        height: 93px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+    .Edit-btn{
+        padding-top: 13px;
+        margin-left: -14px;
+    }
+    .vehicle-btn{
+     width: 8%;
+    outline: none !important;
+    background: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 20px;
+}
+    .vehicle-heading{
+        margin-bottom: -11px;
+        text-align: left;
+        font-family: 'Rajdhani';
+        margin-top: 26px;
+        margin-left: 21px;
+        color: white;
+        font-size: 20px;
+
+    }
+    .continue-btn {
+        position: absolute;
+        right: 11%;
+        border-radius: 9px;
+        bottom: 5%;
+        font-size: 13px;
+        z-index: 10;
+        background: white;
+        font-family: monospace;
+        font-weight: bolder;
+    }
+ 
+  }
+  
+  
+  
